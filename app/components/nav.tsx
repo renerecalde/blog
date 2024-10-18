@@ -13,11 +13,17 @@ const navItems = {
   '/academic': {
     name: 'academic',
   },
+  '/skills': {
+    name: 'skills',
+  },
+  '/languages': {
+    name: 'languages',
+  },
   '/blog': {
     name: 'blog',
   },
-  'https://vercel.com/templates/next.js/portfolio-starter-kit': {
-    name: 'deploy',
+  '/contact': {
+    name: 'contact',
   },
 }
 
