@@ -5,7 +5,7 @@ export const metadata = {
 
 export default function Page() {
     return (
-        <section>
+        <section className="mb-28 max-w-[50rem] text-center">
             <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
                 Skills
             </h1>
