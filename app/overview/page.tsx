@@ -35,6 +35,15 @@ export default function Page() {
                 In the same place, I perform data science tasks. Additionally, I am a freelance web developer.`}
             </p>
 
+            <h2 className="mb-8 text-xl font-semibold tracking-tighter">General Skills</h2>
+            <ul className="list-disc">
+                <li className="mb-4">Project Management,</li>
+                <li className="mb-4">Web development,</li>
+                <li className="mb-4">Data Science,</li>
+                <li className="mb-4">Soft Skills,</li>
+                <li className="mb-4">Applied Informatics Analyst</li>
+            </ul>
+
             <h2 className="mb-8 text-xl font-semibold tracking-tighter">Location</h2>
             <p className={"mb-4"}>
                 {`Santa Fe, Argentina.`}

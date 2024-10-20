@@ -19,9 +19,6 @@ const navItems = {
   '/languages': {
     name: 'languages',
   },
-  '/blog': {
-    name: 'blog',
-  },
   '/contact': {
     name: 'contact',
   },
