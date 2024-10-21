@@ -1,4 +1,4 @@
-import {StackOverflowIcon, MobileIcon} from "../components/icons";
+import {StackOverflowIcon, MobileIcon, WebIcon} from "../components/icons";
 
 export const metadata = {
     title: 'Experience',
@@ -13,6 +13,7 @@ const jobs = [
         lastSeen: '3h ago',
         lastSeenDateTime: '2023-01-23T13:23Z',
         icon: <MobileIcon/>,
+        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
     },
     {
         cargo: 'Michael Foster',
@@ -21,6 +22,7 @@ const jobs = [
         lastSeen: '3h ago',
         lastSeenDateTime: '2023-01-23T13:23Z',
         icon: <StackOverflowIcon/>,
+        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
     },
     {
         cargo: 'Dries Vincent',
@@ -28,6 +30,7 @@ const jobs = [
         role: 'Business Relations',
         lastSeen: null,
         icon: <StackOverflowIcon/>,
+        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
     },
     {
         cargo: 'Lindsay Walton',
@@ -36,14 +39,15 @@ const jobs = [
         lastSeen: '3h ago',
         lastSeenDateTime: '2023-01-23T13:23Z',
         icon: <StackOverflowIcon/>,
+        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
     },
     {
-        cargo: 'Courtney Henry',
-        company: 'courtney.henry@example.com',
+        cargo: 'Freelance',
+        company: 'Full time',
         role: 'Web Project Development.',
-        lastSeen: '3h ago',
-        lastSeenDateTime: '2023-01-23T13:23Z',
-        icon: <StackOverflowIcon/>,
+        lastSeen: 'mar. 2009 - sep. 2015 · 6 years and 7 months',
+        icon: <WebIcon/>,
+        description: 'I worked on the development of websites, mostly e-commerce platforms with Symfony for local businesses.'
     },
     {
         cargo: 'Freelance',

@@ -37,11 +37,11 @@ export default function Page() {
 
             <h2 className="mb-8 text-xl font-semibold tracking-tighter">General Skills</h2>
             <ul className="list-disc">
-                <li className="mb-4">Project Management,</li>
+                <li className="mb-4">Applied Informatics Analyst</li>
                 <li className="mb-4">Web development,</li>
                 <li className="mb-4">Data Science,</li>
+                <li className="mb-4">Project Management,</li>
                 <li className="mb-4">Soft Skills,</li>
-                <li className="mb-4">Applied Informatics Analyst</li>
             </ul>
 
             <h2 className="mb-8 text-xl font-semibold tracking-tighter">Location</h2>
