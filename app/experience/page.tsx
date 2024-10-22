@@ -1,4 +1,4 @@
-import {StackOverflowIcon, MobileIcon, WebIcon} from "../components/icons";
+import {BuildingLibraryIcon, StackOverflowIcon, MobileIcon, WebIcon} from "../components/icons";
 
 export const metadata = {
     title: 'Experience',
@@ -33,13 +33,12 @@ const jobs = [
         description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
     },
     {
-        cargo: 'Lindsay Walton',
-        company: 'lindsay.walton@example.com',
-        role: 'Front-end Developer',
-        lastSeen: '3h ago',
-        lastSeenDateTime: '2023-01-23T13:23Z',
-        icon: <StackOverflowIcon/>,
-        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
+        cargo: 'Ministerio de la Producción, Ciencia y Tecnología de la Provincia de Santa Fe.',
+        company: 'Part time',
+        role: 'Web developer contracted.',
+        lastSeen: 'sept. 2016 - mar. 2022 · 5 years and 7 months',
+        icon: <BuildingLibraryIcon/>,
+        description: 'Development of systems related to entrepreneurship and the social economy.'
     },
     {
         cargo: 'Freelance',
