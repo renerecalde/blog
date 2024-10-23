@@ -1,4 +1,11 @@
-import {BuildingLibraryIcon, StackOverflowIcon, MobileIcon, WebIcon} from "../components/icons";
+import {
+    AcademicCapIcon,
+    BuildingLibraryIcon,
+    StackOverflowIcon,
+    MobileIcon,
+    WebIcon,
+    BackNotesIcon, UserGroupIcon
+} from "../components/icons";
 
 export const metadata = {
     title: 'Experience',
@@ -7,30 +14,21 @@ export const metadata = {
 
 const jobs = [
     {
-        cargo: 'Leslie Alexander',
-        company: 'leslie.alexander@example.com',
-        role: 'Co-Founder / CEO',
-        lastSeen: '3h ago',
-        lastSeenDateTime: '2023-01-23T13:23Z',
-        icon: <MobileIcon/>,
-        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
-    },
-    {
-        cargo: 'Michael Foster',
-        company: 'michael.foster@example.com',
-        role: 'Co-Founder / CTO',
-        lastSeen: '3h ago',
-        lastSeenDateTime: '2023-01-23T13:23Z',
-        icon: <StackOverflowIcon/>,
-        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
-    },
-    {
-        cargo: 'Dries Vincent',
-        company: 'dries.vincent@example.com',
-        role: 'Business Relations',
+        cargo: 'COPRINF',
+        company: 'Part time',
+        role: 'Web developer',
         lastSeen: null,
-        icon: <StackOverflowIcon/>,
-        description: 'I worked in mobile device programming with J2ME. Among the systems I developed, a notable one was a voting survey system.'
+        lastSeenDateTime: '2023-01-23T13:23Z',
+        icon: <UserGroupIcon/>,
+        description: 'Web systems development.'
+    },
+    {
+        cargo: 'Universidad Nacional del Litoral',
+        company: 'Part time',
+        role: 'Project development.',
+        lastSeen: 'feb. 2020 - mar. 2022 · 2 years 2 months',
+        icon: <AcademicCapIcon/>,
+        description: 'Development of a thesis and dissertations management system.'
     },
     {
         cargo: 'Ministerio de la Producción, Ciencia y Tecnología de la Provincia de Santa Fe.',
@@ -39,6 +37,14 @@ const jobs = [
         lastSeen: 'sept. 2016 - mar. 2022 · 5 years and 7 months',
         icon: <BuildingLibraryIcon/>,
         description: 'Development of systems related to entrepreneurship and the social economy.'
+    },
+    {
+        cargo: 'Credifiar',
+        company: 'Full time',
+        role: 'Applied Informatics Analyst.',
+        lastSeen: 'jan. 2020 - mar. 2020 · 3 months',
+        icon: <BackNotesIcon/>,
+        description: 'Development tasks and general IT.'
     },
     {
         cargo: 'Freelance',
