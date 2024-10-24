@@ -1,7 +1,6 @@
 import {
     AcademicCapIcon,
     BuildingLibraryIcon,
-    StackOverflowIcon,
     MobileIcon,
     WebIcon,
     BackNotesIcon, UserGroupIcon
@@ -13,6 +12,15 @@ export const metadata = {
 }
 
 const jobs = [
+    {
+        cargo: 'Ministerio de Desarrollo Productivo de la Provincia de Santa Fe.',
+        company: 'Full time',
+        role: 'Applied Informatics Analyst.',
+        lastSeen: null,
+        lastSeenDateTime: '2023-01-23T13:23Z',
+        icon: <BuildingLibraryIcon/>,
+        description: 'I perform web development tasks, data science, and applied informatics analyst tasks.'
+    },
     {
         cargo: 'COPRINF',
         company: 'Part time',
@@ -64,7 +72,7 @@ const jobs = [
     },
 ];
 
-export function Example() {
+export function JobList() {
     return (
         <ul role="list" className="divide-y divide-gray-100">
             {jobs.map((job) => (
@@ -104,7 +112,7 @@ export default function Page() {
     return (
         <section className="mb-28 max-w-[50rem]">
             <h1 className="font-semibold text-2xl mb-8 tracking-tighter">Professional Experience</h1>
-            <Example/>
+            <JobList/>
         </section>
 
     )
