@@ -1,5 +1,6 @@
 import {
     AcademicCapIcon,
+    ArrowLeftIcon,
 } from "../components/icons";
 
 export const metadata = {
@@ -38,13 +39,16 @@ const licences = [
     {
         institution: 'Dario Bernabeu eLearning',
         academicTitle: 'Pentaho Data Integration',
-        lastSeen: 'oct. 2024',
+        lastSeen: '230hr, oct. 2024',
+        url: 'https://troyanx.com/certificados/10429178A.jpg',
         icon: <AcademicCapIcon/>,
     },
     {
-        institution: 'Universidad Nacional del Litoral',
-        academicTitle: 'Applied Informatics Analyst.',
-        lastSeen: 'may. 2021',
+        institution: 'MESF - Sec. de RRHH y Función Pública',
+        academicTitle: 'Habilidades para el Abordaje Constructivo de Conflictos - 3° Edición.',
+        lastSeen: 'sep. 2024',
+        //url: 'https://www.santafe.gov.ar/formacionrrhh/site/output.php?idC=121091&hash=b59d4b78d8135d7451f104d23633d5eb19c1b870e704554d531944a0ddb0a896',
+        url: null,
         icon: <AcademicCapIcon/>,
     },
     {
@@ -72,6 +76,17 @@ export function LicenceList() {
                         </div>
                         <div className="min-w-0 flex-auto">
                             <p className="text-sm font-semibold leading-6 text-white-900">{licence.institution}</p>
+                            {licence.url ? (
+                                <p className="text-gray-500 dark:text-gray-400">
+                                    Certificate.
+                                    <a
+                                        href={licence.url}
+                                        className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                        <ArrowLeftIcon/>
+                                    </a>
+                                </p>
+                            ) : null }
+
                         </div>
                     </div>
                     <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
