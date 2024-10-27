@@ -44,17 +44,18 @@ const licences = [
         icon: <AcademicCapIcon/>,
     },
     {
-        institution: 'MESF - Sec. de RRHH y Función Pública',
+        institution: 'MESF',
         academicTitle: 'Habilidades para el Abordaje Constructivo de Conflictos - 3° Edición.',
         lastSeen: 'sep. 2024',
         //url: 'https://www.santafe.gov.ar/formacionrrhh/site/output.php?idC=121091&hash=b59d4b78d8135d7451f104d23633d5eb19c1b870e704554d531944a0ddb0a896',
         url: null,
         icon: <AcademicCapIcon/>,
+        description: 'Ministerio de Economía de la Provincia de  Santa Fe - Sec. de RRHH y Función Pública'
     },
     {
-        institution: 'Universidad Nacional del Litoral',
-        academicTitle: 'University Bachelor\'s Degree in Engineering.',
-        lastSeen: 'may. 2015',
+        institution: 'INAP Instituto Nacional de Administración Pública',
+        academicTitle: 'Herramientas para la resolución de conflictos (Plan Federal) (IN-NV-51364)',
+        lastSeen: 'sep. 2023',
         icon: <AcademicCapIcon/>,
     },
     {
@@ -76,16 +77,20 @@ export function LicenceList() {
                         </div>
                         <div className="min-w-0 flex-auto">
                             <p className="text-sm font-semibold leading-6 text-white-900">{licence.institution}</p>
-                            {licence.url ? (
-                                <p className="text-gray-500 dark:text-gray-400">
-                                    Certificate.
-                                    <a
-                                        href={licence.url}
-                                        className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                        <ArrowLeftIcon/>
-                                    </a>
-                                </p>
-                            ) : null }
+                            <p className="mt-1 text-xs leading-5 text-white-500"> {licence.description} </p>
+                            <p>
+                                {licence.url ? (
+                                    <p className="text-gray-500 dark:text-gray-400">
+                                        Certificate.
+                                        <a
+                                            href={licence.url}
+                                            className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                            <ArrowLeftIcon/>
+                                        </a>
+                                    </p>
+                                ) : null}
+
+                            </p>
 
                         </div>
                     </div>
