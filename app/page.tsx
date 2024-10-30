@@ -1,5 +1,3 @@
-import {BlogPosts} from 'app/components/posts'
-
 export default function Page() {
     return (
         <section className="mb-28 max-w-[50rem]">
