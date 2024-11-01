@@ -9,6 +9,7 @@ import {
 
 const jobs = [
     {
+        id: 1,
         cargo: 'Ministerio de Desarrollo Productivo de la Provincia de Santa Fe.',
         company: 'Full time',
         role: 'Applied Informatics Analyst.',
@@ -18,6 +19,7 @@ const jobs = [
         description: 'I perform web development tasks, data science, and applied informatics analyst tasks.'
     },
     {
+        id: 2,
         cargo: 'COPRINF',
         company: 'Part time',
         role: 'Web developer',
@@ -27,6 +29,7 @@ const jobs = [
         description: 'Web systems development.'
     },
     {
+        id: 3,
         cargo: 'Universidad Nacional del Litoral',
         company: 'Part time',
         role: 'Project development.',
@@ -35,6 +38,7 @@ const jobs = [
         description: 'Development of a thesis and dissertations management system.'
     },
     {
+        id: 4,
         cargo: 'Ministerio de la Producción, Ciencia y Tecnología de la Provincia de Santa Fe.',
         company: 'Part time',
         role: 'Web developer contracted.',
@@ -43,6 +47,7 @@ const jobs = [
         description: 'Development of systems related to entrepreneurship and the social economy.'
     },
     {
+        id: 5,
         cargo: 'Credifiar',
         company: 'Full time',
         role: 'Applied Informatics Analyst.',
@@ -51,6 +56,7 @@ const jobs = [
         description: 'Development tasks and general IT.'
     },
     {
+        id: 6,
         cargo: 'Freelance',
         company: 'Full time',
         role: 'Web Project Development.',
@@ -59,6 +65,7 @@ const jobs = [
         description: 'I worked on the development of websites, mostly e-commerce platforms with Symfony for local businesses.'
     },
     {
+        id: 7,
         cargo: 'Freelance',
         company: 'Full time',
         role: 'Mobile Device Programming',

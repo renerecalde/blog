@@ -1,25 +1,30 @@
 import {AcademicCapIcon, ArrowLeftIcon} from "../components/icons";
+import Link from 'next/link'
 
 const titles = [
     {
+        id: 1,
         institution: 'Universidad Nacional del Litoral',
         academicTitle: 'Computer Engineering.',
         lastSeen: null,
         icon: <AcademicCapIcon/>,
     },
     {
+        id: 2,
         institution: 'Universidad Nacional del Litoral',
         academicTitle: 'Applied Informatics Analyst.',
         lastSeen: 'may. 2021',
         icon: <AcademicCapIcon/>,
     },
     {
+        id: 3,
         institution: 'Universidad Nacional del Litoral',
         academicTitle: 'University Bachelor\'s Degree in Engineering.',
         lastSeen: 'may. 2015',
         icon: <AcademicCapIcon/>,
     },
     {
+        id: 4,
         institution: 'Escuela de Educación Técnica Nº1',
         academicTitle: 'Electrical Mechanical Technician.',
         lastSeen: 'feb. 1995 - nov. 2001. · 6 years',
@@ -29,6 +34,7 @@ const titles = [
 
 const licences = [
     {
+        id: 1,
         institution: 'Dario Bernabeu eLearning',
         academicTitle: 'Pentaho Data Integration',
         lastSeen: '230hr, oct. 2024',
@@ -36,6 +42,7 @@ const licences = [
         icon: <AcademicCapIcon/>,
     },
     {
+        id: 2,
         institution: 'MESF',
         academicTitle: 'Habilidades para el Abordaje Constructivo de Conflictos - 3° Edición.',
         lastSeen: 'sep. 2024',
@@ -45,12 +52,14 @@ const licences = [
         description: 'Ministerio de Economía de la Provincia de  Santa Fe - Sec. de RRHH y Función Pública'
     },
     {
+        id: 3,
         institution: 'INAP Instituto Nacional de Administración Pública',
         academicTitle: 'Herramientas para la resolución de conflictos (Plan Federal) (IN-NV-51364)',
         lastSeen: 'sep. 2023',
         icon: <AcademicCapIcon/>,
     },
     {
+        id: 4,
         institution: 'Escuela de Educación Técnica Nº1',
         academicTitle: 'Electrical Mechanical Technician.',
         lastSeen: 'feb. 1995 - nov. 2001. · 6 years',
@@ -80,7 +89,9 @@ export function LicenceList() {
                                                         <a
                                                             href={licence.url}
                                                             className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                                            <ArrowLeftIcon/>
+                                                            <Link href="./academic/certification">
+                                                                <ArrowLeftIcon/>
+                                                            </Link>
                                                         </a>
                                                     </p>
                                                 ) :
