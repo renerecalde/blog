@@ -1,6 +1,4 @@
-import {
-    AcademicCapIcon,
-} from "../components/icons";
+import { AcademicCapIcon, } from "../components/icons";
 
 export const metadata = {
     title: 'Skills',
