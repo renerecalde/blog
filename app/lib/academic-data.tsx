@@ -89,7 +89,7 @@ export function LicenceList() {
                                                         <a
                                                             href={licence.url}
                                                             className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                                            <Link href={`/academic/certification/${licence.id}`}>
+                                                            <Link href={`/academic/${licence.id}`}>
                                                                 <ArrowLeftIcon/>
                                                             </Link>
                                                         </a>
