@@ -32,7 +32,7 @@ const titles = [
     },
 ];
 
-const licences = [
+export const licences = [
     {
         id: 1,
         institution: 'Dario Bernabeu eLearning',
@@ -89,7 +89,7 @@ export function LicenceList() {
                                                         <a
                                                             href={licence.url}
                                                             className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
-                                                            <Link href={`/academic/${licence.id}`}>
+                                                            <Link href={`/academic/certification/${licence.id}`}>
                                                                 <ArrowLeftIcon/>
                                                             </Link>
                                                         </a>

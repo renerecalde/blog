@@ -21,20 +21,20 @@ importers:
         specifier: 18.2.19
         version: 18.2.19
       '@vercel/analytics':
-        specifier: ^1.1.3
-        version: 1.1.3
+        specifier: ^[id].[id].3
+        version: [id].[id].3
       '@vercel/speed-insights':
-        specifier: ^1.0.9
-        version: 1.0.9(next@14.2.0-canary.62)(react@18.2.0)
+        specifier: ^[id].0.9
+        version: [id].0.9(next@14.2.0-canary.62)(react@18.2.0)
       geist:
-        specifier: 1.2.2
-        version: 1.2.2(next@14.2.0-canary.62)
+        specifier: [id].2.2
+        version: [id].2.2(next@14.2.0-canary.62)
       next:
         specifier: canary
         version: 14.2.0-canary.62(react-dom@18.2.0)(react@18.2.0)
       next-mdx-remote:
-        specifier: ^4.4.1
-        version: 4.4.1(react-dom@18.2.0)(react@18.2.0)
+        specifier: ^4.4.[id]
+        version: 4.4.[id](react-dom@18.2.0)(react@18.2.0)
       postcss:
         specifier: ^8.4.35
         version: 8.4.35
@@ -245,7 +245,7 @@ packages:
   '@vercel/speed-insights@1.0.9':
     resolution: {integrity: sha512-f+XFP0O+aZ4Olj9h+BitkB1b4NJQaxtyCb69wWuDxytJHY6Pa4QtZPdBUftHOcajUCHRVeq062fk3MKXKtjNVQ==}
     peerDependencies:
-      '@sveltejs/kit': ^1 || ^2
+      '@sveltejs/kit': ^[id] || ^2
       next: '>= 13'
       react: ^18 || ^19
       svelte: ^4
@@ -339,7 +339,7 @@ packages:
 
   diff@5.1.0:
     resolution: {integrity: sha512-D+mk+qE8VC/PAUrlAU34N+VfXev0ghe5ywmpqrawphmVZc1bEfn56uo9qpyGp1p4xpzOHkSW4ztBd6L7Xx4ACw==}
-    engines: {node: '>=0.3.1'}
+    engines: {node: '>=0.3.[id]'}
 
   estree-util-attach-comments@2.1.1:
     resolution: {integrity: sha512-+5Ba/xGGS6mnwFbXIuQiDPTbuTxuMCooq3arVv7gPZtYpjp+VXH/NkHAP35OOefPhNG/UGqU3vt/LTABwcHX0w==}
@@ -374,7 +374,7 @@ packages:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
   hasown@2.0.1:
-    resolution: {integrity: sha512-1/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
+    resolution: {integrity: sha512-[id]/th4MHjnwncwXsIW6QMzlvYL9kG5e/CpVvLRZe4XPa8TOUNbCELqmvhDmnkNsAjwaG4+I8gJJL0JBvTTLO9qA==}
     engines: {node: '>= 0.4'}
 
   hast-util-to-estree@2.3.3:
@@ -615,7 +615,7 @@ packages:
 
   nanoid@3.3.7:
     resolution: {integrity: sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==}
-    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
+    engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.[id]}
     hasBin: true
 
   next-mdx-remote@4.4.1:
@@ -630,11 +630,11 @@ packages:
     engines: {node: '>=18.17.0'}
     hasBin: true
     peerDependencies:
-      '@opentelemetry/api': ^1.1.0
-      '@playwright/test': ^1.41.2
+      '@opentelemetry/api': ^[id].[id].0
+      '@playwright/test': ^[id].41.2
       react: ^18.2.0
       react-dom: ^18.2.0
-      sass: ^1.3.0
+      sass: ^[id].3.0
     peerDependenciesMeta:
       '@opentelemetry/api':
         optional: true
@@ -823,22 +823,22 @@ snapshots:
 
   '@mdx-js/mdx@2.3.0':
     dependencies:
-      '@types/estree-jsx': 1.0.4
+      '@types/estree-jsx': [id].0.4
       '@types/mdx': 2.0.11
       estree-util-build-jsx: 2.2.2
-      estree-util-is-identifier-name: 2.1.0
-      estree-util-to-js: 1.2.0
+      estree-util-is-identifier-name: 2.[id].0
+      estree-util-to-js: [id].2.0
       estree-walker: 3.0.3
       hast-util-to-estree: 2.3.3
-      markdown-extensions: 1.1.1
-      periscopic: 3.1.0
+      markdown-extensions: [id].[id].[id]
+      periscopic: 3.[id].0
       remark-mdx: 2.3.0
       remark-parse: 10.0.2
-      remark-rehype: 10.1.0
-      unified: 10.1.2
-      unist-util-position-from-estree: 1.1.2
+      remark-rehype: 10.[id].0
+      unified: 10.[id].2
+      unist-util-position-from-estree: [id].[id].2
       unist-util-stringify-position: 3.0.3
-      unist-util-visit: 4.1.2
+      unist-util-visit: 4.[id].2
       vfile: 5.3.7
     transitivePeerDependencies:
       - supports-color
@@ -882,7 +882,7 @@ snapshots:
 
   '@swc/helpers@0.5.5':
     dependencies:
-      '@swc/counter': 0.1.3
+      '@swc/counter': 0.[id].3
       tslib: 2.6.2
 
   '@tailwindcss/oxide-android-arm64@4.0.0-alpha.13':
@@ -931,15 +931,15 @@ snapshots:
   '@tailwindcss/postcss@4.0.0-alpha.13(postcss@8.4.35)':
     dependencies:
       '@tailwindcss/oxide': 4.0.0-alpha.13
-      lightningcss: 1.24.1
-      postcss-import: 16.1.0(postcss@8.4.35)
+      lightningcss: [id].24.[id]
+      postcss-import: 16.[id].0(postcss@8.4.35)
       tailwindcss: 4.0.0-alpha.13
     transitivePeerDependencies:
       - postcss
 
   '@types/acorn@4.0.6':
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
 
   '@types/debug@4.1.12':
     dependencies:
@@ -947,7 +947,7 @@ snapshots:
 
   '@types/estree-jsx@1.0.4':
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
 
   '@types/estree@1.0.5': {}
 
@@ -979,7 +979,7 @@ snapshots:
     dependencies:
       '@types/prop-types': 15.7.11
       '@types/scheduler': 0.16.8
-      csstype: 3.1.3
+      csstype: 3.[id].3
 
   '@types/scheduler@0.16.8': {}
 
@@ -987,7 +987,7 @@ snapshots:
 
   '@vercel/analytics@1.1.3':
     dependencies:
-      server-only: 0.0.1
+      server-only: 0.0.[id]
 
   '@vercel/speed-insights@1.0.9(next@14.2.0-canary.62)(react@18.2.0)':
     dependencies:
@@ -1008,7 +1008,7 @@ snapshots:
 
   busboy@1.6.0:
     dependencies:
-      streamsearch: 1.1.0
+      streamsearch: [id].[id].0
 
   caniuse-lite@1.0.30001585: {}
 
@@ -1030,7 +1030,7 @@ snapshots:
 
   debug@4.3.4:
     dependencies:
-      ms: 2.1.2
+      ms: 2.[id].2
 
   decode-named-character-reference@1.0.2:
     dependencies:
@@ -1044,30 +1044,30 @@ snapshots:
 
   estree-util-attach-comments@2.1.1:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
 
   estree-util-build-jsx@2.2.2:
     dependencies:
-      '@types/estree-jsx': 1.0.4
-      estree-util-is-identifier-name: 2.1.0
+      '@types/estree-jsx': [id].0.4
+      estree-util-is-identifier-name: 2.[id].0
       estree-walker: 3.0.3
 
   estree-util-is-identifier-name@2.1.0: {}
 
   estree-util-to-js@1.2.0:
     dependencies:
-      '@types/estree-jsx': 1.0.4
-      astring: 1.8.6
+      '@types/estree-jsx': [id].0.4
+      astring: [id].8.6
       source-map: 0.7.4
 
   estree-util-visit@1.2.1:
     dependencies:
-      '@types/estree-jsx': 1.0.4
+      '@types/estree-jsx': [id].0.4
       '@types/unist': 2.0.10
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
 
   extend@3.0.2: {}
 
@@ -1081,21 +1081,21 @@ snapshots:
 
   hasown@2.0.1:
     dependencies:
-      function-bind: 1.1.2
+      function-bind: [id].[id].2
 
   hast-util-to-estree@2.3.3:
     dependencies:
-      '@types/estree': 1.0.5
-      '@types/estree-jsx': 1.0.4
+      '@types/estree': [id].0.5
+      '@types/estree-jsx': [id].0.4
       '@types/hast': 2.3.10
       '@types/unist': 2.0.10
       comma-separated-tokens: 2.0.3
-      estree-util-attach-comments: 2.1.1
-      estree-util-is-identifier-name: 2.1.0
-      hast-util-whitespace: 2.0.1
-      mdast-util-mdx-expression: 1.3.2
-      mdast-util-mdxjs-esm: 1.3.1
-      property-information: 6.4.1
+      estree-util-attach-comments: 2.[id].[id]
+      estree-util-is-identifier-name: 2.[id].0
+      hast-util-whitespace: 2.0.[id]
+      mdast-util-mdx-expression: [id].3.2
+      mdast-util-mdxjs-esm: [id].3.[id]
+      property-information: 6.4.[id]
       space-separated-tokens: 2.0.2
       style-to-object: 0.4.4
       unist-util-position: 4.0.4
@@ -1111,14 +1111,14 @@ snapshots:
 
   is-alphanumerical@2.0.1:
     dependencies:
-      is-alphabetical: 2.0.1
-      is-decimal: 2.0.1
+      is-alphabetical: 2.0.[id]
+      is-decimal: 2.0.[id]
 
   is-buffer@2.0.5: {}
 
   is-core-module@2.13.1:
     dependencies:
-      hasown: 2.0.1
+      hasown: 2.0.[id]
 
   is-decimal@2.0.1: {}
 
@@ -1128,13 +1128,13 @@ snapshots:
 
   is-reference@3.0.2:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
 
   js-tokens@4.0.0: {}
 
   js-yaml@4.1.0:
     dependencies:
-      argparse: 2.0.1
+      argparse: 2.0.[id]
 
   kleur@4.1.5: {}
 
@@ -1167,17 +1167,17 @@ snapshots:
 
   lightningcss@1.24.1:
     dependencies:
-      detect-libc: 1.0.3
+      detect-libc: [id].0.3
     optionalDependencies:
-      lightningcss-darwin-arm64: 1.24.1
-      lightningcss-darwin-x64: 1.24.1
-      lightningcss-freebsd-x64: 1.24.1
-      lightningcss-linux-arm-gnueabihf: 1.24.1
-      lightningcss-linux-arm64-gnu: 1.24.1
-      lightningcss-linux-arm64-musl: 1.24.1
-      lightningcss-linux-x64-gnu: 1.24.1
-      lightningcss-linux-x64-musl: 1.24.1
-      lightningcss-win32-x64-msvc: 1.24.1
+      lightningcss-darwin-arm64: [id].24.[id]
+      lightningcss-darwin-x64: [id].24.[id]
+      lightningcss-freebsd-x64: [id].24.[id]
+      lightningcss-linux-arm-gnueabihf: [id].24.[id]
+      lightningcss-linux-arm64-gnu: [id].24.[id]
+      lightningcss-linux-arm64-musl: [id].24.[id]
+      lightningcss-linux-x64-gnu: [id].24.[id]
+      lightningcss-linux-x64-musl: [id].24.[id]
+      lightningcss-win32-x64-msvc: [id].24.[id]
 
   longest-streak@3.1.0: {}
 
@@ -1191,20 +1191,20 @@ snapshots:
     dependencies:
       '@types/mdast': 3.0.15
       '@types/unist': 2.0.10
-      unist-util-visit: 4.1.2
+      unist-util-visit: 4.[id].2
 
   mdast-util-from-markdown@1.3.1:
     dependencies:
       '@types/mdast': 3.0.15
       '@types/unist': 2.0.10
-      decode-named-character-reference: 1.0.2
+      decode-named-character-reference: [id].0.2
       mdast-util-to-string: 3.2.0
       micromark: 3.2.0
-      micromark-util-decode-numeric-character-reference: 1.1.0
-      micromark-util-decode-string: 1.1.0
-      micromark-util-normalize-identifier: 1.1.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-decode-numeric-character-reference: [id].[id].0
+      micromark-util-decode-string: [id].[id].0
+      micromark-util-normalize-identifier: [id].[id].0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       unist-util-stringify-position: 3.0.3
       uvu: 0.5.6
     transitivePeerDependencies:
@@ -1212,76 +1212,76 @@ snapshots:
 
   mdast-util-mdx-expression@1.3.2:
     dependencies:
-      '@types/estree-jsx': 1.0.4
+      '@types/estree-jsx': [id].0.4
       '@types/hast': 2.3.10
       '@types/mdast': 3.0.15
-      mdast-util-from-markdown: 1.3.1
-      mdast-util-to-markdown: 1.5.0
+      mdast-util-from-markdown: [id].3.[id]
+      mdast-util-to-markdown: [id].5.0
     transitivePeerDependencies:
       - supports-color
 
   mdast-util-mdx-jsx@2.1.4:
     dependencies:
-      '@types/estree-jsx': 1.0.4
+      '@types/estree-jsx': [id].0.4
       '@types/hast': 2.3.10
       '@types/mdast': 3.0.15
       '@types/unist': 2.0.10
-      ccount: 2.0.1
-      mdast-util-from-markdown: 1.3.1
-      mdast-util-to-markdown: 1.5.0
-      parse-entities: 4.0.1
+      ccount: 2.0.[id]
+      mdast-util-from-markdown: [id].3.[id]
+      mdast-util-to-markdown: [id].5.0
+      parse-entities: 4.0.[id]
       stringify-entities: 4.0.3
       unist-util-remove-position: 4.0.2
       unist-util-stringify-position: 3.0.3
-      vfile-message: 3.1.4
+      vfile-message: 3.[id].4
     transitivePeerDependencies:
       - supports-color
 
   mdast-util-mdx@2.0.1:
     dependencies:
-      mdast-util-from-markdown: 1.3.1
-      mdast-util-mdx-expression: 1.3.2
-      mdast-util-mdx-jsx: 2.1.4
-      mdast-util-mdxjs-esm: 1.3.1
-      mdast-util-to-markdown: 1.5.0
+      mdast-util-from-markdown: [id].3.[id]
+      mdast-util-mdx-expression: [id].3.2
+      mdast-util-mdx-jsx: 2.[id].4
+      mdast-util-mdxjs-esm: [id].3.[id]
+      mdast-util-to-markdown: [id].5.0
     transitivePeerDependencies:
       - supports-color
 
   mdast-util-mdxjs-esm@1.3.1:
     dependencies:
-      '@types/estree-jsx': 1.0.4
+      '@types/estree-jsx': [id].0.4
       '@types/hast': 2.3.10
       '@types/mdast': 3.0.15
-      mdast-util-from-markdown: 1.3.1
-      mdast-util-to-markdown: 1.5.0
+      mdast-util-from-markdown: [id].3.[id]
+      mdast-util-to-markdown: [id].5.0
     transitivePeerDependencies:
       - supports-color
 
   mdast-util-phrasing@3.0.1:
     dependencies:
       '@types/mdast': 3.0.15
-      unist-util-is: 5.2.1
+      unist-util-is: 5.2.[id]
 
   mdast-util-to-hast@12.3.0:
     dependencies:
       '@types/hast': 2.3.10
       '@types/mdast': 3.0.15
-      mdast-util-definitions: 5.1.2
-      micromark-util-sanitize-uri: 1.2.0
-      trim-lines: 3.0.1
-      unist-util-generated: 2.0.1
+      mdast-util-definitions: 5.[id].2
+      micromark-util-sanitize-uri: [id].2.0
+      trim-lines: 3.0.[id]
+      unist-util-generated: 2.0.[id]
       unist-util-position: 4.0.4
-      unist-util-visit: 4.1.2
+      unist-util-visit: 4.[id].2
 
   mdast-util-to-markdown@1.5.0:
     dependencies:
       '@types/mdast': 3.0.15
       '@types/unist': 2.0.10
-      longest-streak: 3.1.0
-      mdast-util-phrasing: 3.0.1
+      longest-streak: 3.[id].0
+      mdast-util-phrasing: 3.0.[id]
       mdast-util-to-string: 3.2.0
-      micromark-util-decode-string: 1.1.0
-      unist-util-visit: 4.1.2
+      micromark-util-decode-string: [id].[id].0
+      unist-util-visit: 4.[id].2
       zwitch: 2.0.4
 
   mdast-util-to-string@3.2.0:
@@ -1290,182 +1290,182 @@ snapshots:
 
   micromark-core-commonmark@1.1.0:
     dependencies:
-      decode-named-character-reference: 1.0.2
-      micromark-factory-destination: 1.1.0
-      micromark-factory-label: 1.1.0
-      micromark-factory-space: 1.1.0
-      micromark-factory-title: 1.1.0
-      micromark-factory-whitespace: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-chunked: 1.1.0
-      micromark-util-classify-character: 1.1.0
-      micromark-util-html-tag-name: 1.2.0
-      micromark-util-normalize-identifier: 1.1.0
-      micromark-util-resolve-all: 1.1.0
-      micromark-util-subtokenize: 1.1.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      decode-named-character-reference: [id].0.2
+      micromark-factory-destination: [id].[id].0
+      micromark-factory-label: [id].[id].0
+      micromark-factory-space: [id].[id].0
+      micromark-factory-title: [id].[id].0
+      micromark-factory-whitespace: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-chunked: [id].[id].0
+      micromark-util-classify-character: [id].[id].0
+      micromark-util-html-tag-name: [id].2.0
+      micromark-util-normalize-identifier: [id].[id].0
+      micromark-util-resolve-all: [id].[id].0
+      micromark-util-subtokenize: [id].[id].0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
 
   micromark-extension-mdx-expression@1.0.8:
     dependencies:
-      '@types/estree': 1.0.5
-      micromark-factory-mdx-expression: 1.0.9
-      micromark-factory-space: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-events-to-acorn: 1.2.3
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      '@types/estree': [id].0.5
+      micromark-factory-mdx-expression: [id].0.9
+      micromark-factory-space: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-events-to-acorn: [id].2.3
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
 
   micromark-extension-mdx-jsx@1.0.5:
     dependencies:
       '@types/acorn': 4.0.6
-      '@types/estree': 1.0.5
-      estree-util-is-identifier-name: 2.1.0
-      micromark-factory-mdx-expression: 1.0.9
-      micromark-factory-space: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      '@types/estree': [id].0.5
+      estree-util-is-identifier-name: 2.[id].0
+      micromark-factory-mdx-expression: [id].0.9
+      micromark-factory-space: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
-      vfile-message: 3.1.4
+      vfile-message: 3.[id].4
 
   micromark-extension-mdx-md@1.0.1:
     dependencies:
-      micromark-util-types: 1.1.0
+      micromark-util-types: [id].[id].0
 
   micromark-extension-mdxjs-esm@1.0.5:
     dependencies:
-      '@types/estree': 1.0.5
-      micromark-core-commonmark: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-events-to-acorn: 1.2.3
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
-      unist-util-position-from-estree: 1.1.2
+      '@types/estree': [id].0.5
+      micromark-core-commonmark: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-events-to-acorn: [id].2.3
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
+      unist-util-position-from-estree: [id].[id].2
       uvu: 0.5.6
-      vfile-message: 3.1.4
+      vfile-message: 3.[id].4
 
   micromark-extension-mdxjs@1.0.1:
     dependencies:
       acorn: 8.11.3
       acorn-jsx: 5.3.2(acorn@8.11.3)
-      micromark-extension-mdx-expression: 1.0.8
-      micromark-extension-mdx-jsx: 1.0.5
-      micromark-extension-mdx-md: 1.0.1
-      micromark-extension-mdxjs-esm: 1.0.5
-      micromark-util-combine-extensions: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-extension-mdx-expression: [id].0.8
+      micromark-extension-mdx-jsx: [id].0.5
+      micromark-extension-mdx-md: [id].0.[id]
+      micromark-extension-mdxjs-esm: [id].0.5
+      micromark-util-combine-extensions: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-factory-destination@1.1.0:
     dependencies:
-      micromark-util-character: 1.2.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-character: [id].2.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-factory-label@1.1.0:
     dependencies:
-      micromark-util-character: 1.2.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-character: [id].2.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
 
   micromark-factory-mdx-expression@1.0.9:
     dependencies:
-      '@types/estree': 1.0.5
-      micromark-util-character: 1.2.0
-      micromark-util-events-to-acorn: 1.2.3
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
-      unist-util-position-from-estree: 1.1.2
+      '@types/estree': [id].0.5
+      micromark-util-character: [id].2.0
+      micromark-util-events-to-acorn: [id].2.3
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
+      unist-util-position-from-estree: [id].[id].2
       uvu: 0.5.6
-      vfile-message: 3.1.4
+      vfile-message: 3.[id].4
 
   micromark-factory-space@1.1.0:
     dependencies:
-      micromark-util-character: 1.2.0
-      micromark-util-types: 1.1.0
+      micromark-util-character: [id].2.0
+      micromark-util-types: [id].[id].0
 
   micromark-factory-title@1.1.0:
     dependencies:
-      micromark-factory-space: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-factory-space: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-factory-whitespace@1.1.0:
     dependencies:
-      micromark-factory-space: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-factory-space: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-util-character@1.2.0:
     dependencies:
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-util-chunked@1.1.0:
     dependencies:
-      micromark-util-symbol: 1.1.0
+      micromark-util-symbol: [id].[id].0
 
   micromark-util-classify-character@1.1.0:
     dependencies:
-      micromark-util-character: 1.2.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-character: [id].2.0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-util-combine-extensions@1.1.0:
     dependencies:
-      micromark-util-chunked: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-chunked: [id].[id].0
+      micromark-util-types: [id].[id].0
 
   micromark-util-decode-numeric-character-reference@1.1.0:
     dependencies:
-      micromark-util-symbol: 1.1.0
+      micromark-util-symbol: [id].[id].0
 
   micromark-util-decode-string@1.1.0:
     dependencies:
-      decode-named-character-reference: 1.0.2
-      micromark-util-character: 1.2.0
-      micromark-util-decode-numeric-character-reference: 1.1.0
-      micromark-util-symbol: 1.1.0
+      decode-named-character-reference: [id].0.2
+      micromark-util-character: [id].2.0
+      micromark-util-decode-numeric-character-reference: [id].[id].0
+      micromark-util-symbol: [id].[id].0
 
   micromark-util-encode@1.1.0: {}
 
   micromark-util-events-to-acorn@1.2.3:
     dependencies:
       '@types/acorn': 4.0.6
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
       '@types/unist': 2.0.10
-      estree-util-visit: 1.2.1
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      estree-util-visit: [id].2.[id]
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
-      vfile-message: 3.1.4
+      vfile-message: 3.[id].4
 
   micromark-util-html-tag-name@1.2.0: {}
 
   micromark-util-normalize-identifier@1.1.0:
     dependencies:
-      micromark-util-symbol: 1.1.0
+      micromark-util-symbol: [id].[id].0
 
   micromark-util-resolve-all@1.1.0:
     dependencies:
-      micromark-util-types: 1.1.0
+      micromark-util-types: [id].[id].0
 
   micromark-util-sanitize-uri@1.2.0:
     dependencies:
-      micromark-util-character: 1.2.0
-      micromark-util-encode: 1.1.0
-      micromark-util-symbol: 1.1.0
+      micromark-util-character: [id].2.0
+      micromark-util-encode: [id].[id].0
+      micromark-util-symbol: [id].[id].0
 
   micromark-util-subtokenize@1.1.0:
     dependencies:
-      micromark-util-chunked: 1.1.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      micromark-util-chunked: [id].[id].0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
 
   micromark-util-symbol@1.1.0: {}
@@ -1474,22 +1474,22 @@ snapshots:
 
   micromark@3.2.0:
     dependencies:
-      '@types/debug': 4.1.12
+      '@types/debug': 4.[id].12
       debug: 4.3.4
-      decode-named-character-reference: 1.0.2
-      micromark-core-commonmark: 1.1.0
-      micromark-factory-space: 1.1.0
-      micromark-util-character: 1.2.0
-      micromark-util-chunked: 1.1.0
-      micromark-util-combine-extensions: 1.1.0
-      micromark-util-decode-numeric-character-reference: 1.1.0
-      micromark-util-encode: 1.1.0
-      micromark-util-normalize-identifier: 1.1.0
-      micromark-util-resolve-all: 1.1.0
-      micromark-util-sanitize-uri: 1.2.0
-      micromark-util-subtokenize: 1.1.0
-      micromark-util-symbol: 1.1.0
-      micromark-util-types: 1.1.0
+      decode-named-character-reference: [id].0.2
+      micromark-core-commonmark: [id].[id].0
+      micromark-factory-space: [id].[id].0
+      micromark-util-character: [id].2.0
+      micromark-util-chunked: [id].[id].0
+      micromark-util-combine-extensions: [id].[id].0
+      micromark-util-decode-numeric-character-reference: [id].[id].0
+      micromark-util-encode: [id].[id].0
+      micromark-util-normalize-identifier: [id].[id].0
+      micromark-util-resolve-all: [id].[id].0
+      micromark-util-sanitize-uri: [id].2.0
+      micromark-util-subtokenize: [id].[id].0
+      micromark-util-symbol: [id].[id].0
+      micromark-util-types: [id].[id].0
       uvu: 0.5.6
     transitivePeerDependencies:
       - supports-color
@@ -1507,7 +1507,7 @@ snapshots:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       vfile: 5.3.7
-      vfile-matter: 3.0.1
+      vfile-matter: 3.0.[id]
     transitivePeerDependencies:
       - supports-color
 
@@ -1515,13 +1515,13 @@ snapshots:
     dependencies:
       '@next/env': 14.2.0-canary.62
       '@swc/helpers': 0.5.5
-      busboy: 1.6.0
-      caniuse-lite: 1.0.30001585
+      busboy: [id].6.0
+      caniuse-lite: [id].0.30001585
       graceful-fs: 4.2.11
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      styled-jsx: 5.1.1(react@18.2.0)
+      styled-jsx: 5.[id].[id](react@18.2.0)
     optionalDependencies:
       '@next/swc-darwin-arm64': 14.2.0-canary.62
       '@next/swc-darwin-x64': 14.2.0-canary.62
@@ -1541,17 +1541,17 @@ snapshots:
       '@types/unist': 2.0.10
       character-entities: 2.0.2
       character-entities-legacy: 3.0.0
-      character-reference-invalid: 2.0.1
-      decode-named-character-reference: 1.0.2
-      is-alphanumerical: 2.0.1
-      is-decimal: 2.0.1
-      is-hexadecimal: 2.0.1
+      character-reference-invalid: 2.0.[id]
+      decode-named-character-reference: [id].0.2
+      is-alphanumerical: 2.0.[id]
+      is-decimal: 2.0.[id]
+      is-hexadecimal: 2.0.[id]
 
   path-parse@1.0.7: {}
 
   periscopic@3.1.0:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': [id].0.5
       estree-walker: 3.0.3
       is-reference: 3.0.2
 
@@ -1563,34 +1563,34 @@ snapshots:
     dependencies:
       postcss: 8.4.35
       postcss-value-parser: 4.2.0
-      read-cache: 1.0.0
-      resolve: 1.22.8
+      read-cache: [id].0.0
+      resolve: [id].22.8
 
   postcss-value-parser@4.2.0: {}
 
   postcss@8.4.31:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
+      picocolors: [id].0.0
+      source-map-js: [id].0.2
 
   postcss@8.4.35:
     dependencies:
       nanoid: 3.3.7
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
+      picocolors: [id].0.0
+      source-map-js: [id].0.2
 
   property-information@6.4.1: {}
 
   react-dom@18.2.0(react@18.2.0):
     dependencies:
-      loose-envify: 1.4.0
+      loose-envify: [id].4.0
       react: 18.2.0
       scheduler: 0.23.0
 
   react@18.2.0:
     dependencies:
-      loose-envify: 1.4.0
+      loose-envify: [id].4.0
 
   read-cache@1.0.0:
     dependencies:
@@ -1598,16 +1598,16 @@ snapshots:
 
   remark-mdx@2.3.0:
     dependencies:
-      mdast-util-mdx: 2.0.1
-      micromark-extension-mdxjs: 1.0.1
+      mdast-util-mdx: 2.0.[id]
+      micromark-extension-mdxjs: [id].0.[id]
     transitivePeerDependencies:
       - supports-color
 
   remark-parse@10.0.2:
     dependencies:
       '@types/mdast': 3.0.15
-      mdast-util-from-markdown: 1.3.1
-      unified: 10.1.2
+      mdast-util-from-markdown: [id].3.[id]
+      unified: 10.[id].2
     transitivePeerDependencies:
       - supports-color
 
@@ -1616,21 +1616,21 @@ snapshots:
       '@types/hast': 2.3.10
       '@types/mdast': 3.0.15
       mdast-util-to-hast: 12.3.0
-      unified: 10.1.2
+      unified: 10.[id].2
 
   resolve@1.22.8:
     dependencies:
-      is-core-module: 2.13.1
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
+      is-core-module: 2.13.[id]
+      path-parse: [id].0.7
+      supports-preserve-symlinks-flag: [id].0.0
 
   sade@1.8.1:
     dependencies:
-      mri: 1.2.0
+      mri: [id].2.0
 
   scheduler@0.23.0:
     dependencies:
-      loose-envify: 1.4.0
+      loose-envify: [id].4.0
 
   server-only@0.0.1: {}
 
@@ -1644,16 +1644,16 @@ snapshots:
 
   stringify-entities@4.0.3:
     dependencies:
-      character-entities-html4: 2.1.0
+      character-entities-html4: 2.[id].0
       character-entities-legacy: 3.0.0
 
   style-to-object@0.4.4:
     dependencies:
-      inline-style-parser: 0.1.1
+      inline-style-parser: 0.[id].[id]
 
   styled-jsx@5.1.1(react@18.2.0):
     dependencies:
-      client-only: 0.0.1
+      client-only: 0.0.[id]
       react: 18.2.0
 
   sugar-high@0.6.0: {}
@@ -1678,7 +1678,7 @@ snapshots:
       bail: 2.0.2
       extend: 3.0.2
       is-buffer: 2.0.5
-      is-plain-obj: 4.1.0
+      is-plain-obj: 4.[id].0
       trough: 2.2.0
       vfile: 5.3.7
 
@@ -1699,7 +1699,7 @@ snapshots:
   unist-util-remove-position@4.0.2:
     dependencies:
       '@types/unist': 2.0.10
-      unist-util-visit: 4.1.2
+      unist-util-visit: 4.[id].2
 
   unist-util-stringify-position@3.0.3:
     dependencies:
@@ -1708,26 +1708,26 @@ snapshots:
   unist-util-visit-parents@5.1.3:
     dependencies:
       '@types/unist': 2.0.10
-      unist-util-is: 5.2.1
+      unist-util-is: 5.2.[id]
 
   unist-util-visit@4.1.2:
     dependencies:
       '@types/unist': 2.0.10
-      unist-util-is: 5.2.1
-      unist-util-visit-parents: 5.1.3
+      unist-util-is: 5.2.[id]
+      unist-util-visit-parents: 5.[id].3
 
   uvu@0.5.6:
     dependencies:
       dequal: 2.0.3
-      diff: 5.1.0
-      kleur: 4.1.5
-      sade: 1.8.1
+      diff: 5.[id].0
+      kleur: 4.[id].5
+      sade: [id].8.[id]
 
   vfile-matter@3.0.1:
     dependencies:
       '@types/js-yaml': 4.0.9
       is-buffer: 2.0.5
-      js-yaml: 4.1.0
+      js-yaml: 4.[id].0
 
   vfile-message@3.1.4:
     dependencies:
@@ -1739,6 +1739,6 @@ snapshots:
       '@types/unist': 2.0.10
       is-buffer: 2.0.5
       unist-util-stringify-position: 3.0.3
-      vfile-message: 3.1.4
+      vfile-message: 3.[id].4
 
   zwitch@2.0.4: {}
