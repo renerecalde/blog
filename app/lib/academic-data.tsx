@@ -35,14 +35,23 @@ const titles = [
 export const licences = [
     {
         id: 1,
+        institution: 'Leafnoise',
+        academicTitle: 'Curso Desarrollador Metabase',
+        lastSeen: '230hr, oct. 2024',
+        icon: <AcademicCapIcon/>,
+        description: 'Leafnoise - Secretaría de Tecnologías para la Gestión - Gobierno de la Provincia de Santa Fe'
+    },
+    {
+        id: 2,
         institution: 'Dario Bernabeu eLearning',
         academicTitle: 'Pentaho Data Integration',
         lastSeen: '230hr, oct. 2024',
         url: 'https://troyanx.com/certificados/10429178A.jpg',
         icon: <AcademicCapIcon/>,
+        description: 'Dario Bernabeu eLearning'
     },
     {
-        id: 2,
+        id: 3,
         institution: 'MESF',
         academicTitle: 'Habilidades para el Abordaje Constructivo de Conflictos - 3° Edición.',
         lastSeen: 'sep. 2024',
@@ -52,19 +61,14 @@ export const licences = [
         description: 'Ministerio de Economía de la Provincia de  Santa Fe - Sec. de RRHH y Función Pública'
     },
     {
-        id: 3,
-        institution: 'INAP Instituto Nacional de Administración Pública',
+        id: 4,
+        institution: 'INAP',
         academicTitle: 'Herramientas para la resolución de conflictos (Plan Federal) (IN-NV-51364)',
         lastSeen: 'sep. 2023',
         icon: <AcademicCapIcon/>,
+        description: 'Instituto Nacional de Administración Pública'
     },
-    {
-        id: 4,
-        institution: 'Escuela de Educación Técnica Nº1',
-        academicTitle: 'Electrical Mechanical Technician.',
-        lastSeen: 'feb. 1995 - nov. 2001. · 6 years',
-        icon: <AcademicCapIcon/>,
-    },
+
 ];
 
 export function LicenceList() {
@@ -79,30 +83,25 @@ export function LicenceList() {
                                     {licence.icon}
                                 </div>
                                 < div className="min-w-0 flex-auto">
-                                    <p className="text-sm font-semibold leading-6 text-white-900"> {licence.institution} </p>
-                                    <p className="mt-1 text-xs leading-5 text-white-500"> {licence.description} </p>
-                                    < p>
-                                        {
-                                            licence.url ? (
-                                                    <p className="text-gray-500 dark:text-gray-400">
-                                                        Certificate.
+                                    <p className="text-sm font-semibold leading-6 text-white-900">
+                                        {licence.academicTitle}
+                                    </p>
+                                                   <p className="text-gray-500 text-sm dark:text-gray-400">
+                                                        Details
                                                         <a
-                                                            href={licence.url}
-                                                            className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                                                            href="#"
+                                                            className="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline"
+                                                        >
                                                             <Link href={`/academic/certification/${licence.id}`}>
                                                                 <ArrowLeftIcon/>
                                                             </Link>
                                                         </a>
                                                     </p>
-                                                ) :
-                                                null
-                                        }
-                                    </p>
                                 </div>
                             </div>
                             <div
                                 className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
-                                <p className="text-sm leading-6 text-white-900"> {licence.academicTitle} </p>
+                                <p className="text-sm leading-6 text-white-900"> {licence.institution} </p>
                                 {
                                     licence.lastSeen ? (
                                             <p className="mt-1 text-xs leading-5 text-white-500">
