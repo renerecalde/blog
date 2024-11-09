@@ -35,6 +35,14 @@ const titles = [
 export const licences = [
     {
         id: 1,
+        institution: 'Donweb',
+        academicTitle: 'Taller WordPress Multilingüe',
+        lastSeen: '29 oct. 2024',
+        icon: <AcademicCapIcon/>,
+        description: 'Talleres DonWeb'
+    },
+    {
+        id: 2,
         institution: 'Leafnoise',
         academicTitle: 'Curso Desarrollador Metabase',
         lastSeen: '230hr, oct. 2024',
@@ -42,7 +50,7 @@ export const licences = [
         description: 'Leafnoise - Secretaría de Tecnologías para la Gestión - Gobierno de la Provincia de Santa Fe'
     },
     {
-        id: 2,
+        id: 3,
         institution: 'Dario Bernabeu eLearning',
         academicTitle: 'Pentaho Data Integration',
         lastSeen: '230hr, oct. 2024',
@@ -51,7 +59,7 @@ export const licences = [
         description: 'Dario Bernabeu eLearning'
     },
     {
-        id: 3,
+        id: 4,
         institution: 'MESF',
         academicTitle: 'Habilidades para el Abordaje Constructivo de Conflictos - 3° Edición.',
         lastSeen: 'sep. 2024',
@@ -61,14 +69,45 @@ export const licences = [
         description: 'Ministerio de Economía de la Provincia de  Santa Fe - Sec. de RRHH y Función Pública'
     },
     {
-        id: 4,
+        id: 5,
         institution: 'INAP',
         academicTitle: 'Herramientas para la resolución de conflictos (Plan Federal) (IN-NV-51364)',
         lastSeen: 'sep. 2023',
         icon: <AcademicCapIcon/>,
         description: 'Instituto Nacional de Administración Pública'
     },
-
+    {
+        id: 6,
+        institution: 'Donweb',
+        academicTitle: 'Taller Desarrollo Creativo, Bainstorming y Design Thinking',
+        lastSeen: '13 mar. 2023',
+        icon: <AcademicCapIcon/>,
+        description: 'Talleres DonWeb'
+    },
+    {
+        id: 7,
+        institution: 'Udemy',
+        academicTitle: 'Beginner English: Practical Foundational English Training',
+        lastSeen: '25 jun. 2021',
+        icon: <AcademicCapIcon/>,
+        description: 'Udemy'
+    },
+    {
+        id: 8,
+        institution: 'CEICH - FICH UNL',
+        academicTitle: 'MISIONES SATELITALES aplicadas a la enseñanza de la Ciencia y la Tecnología',
+        lastSeen: '8 may. 2020',
+        icon: <AcademicCapIcon/>,
+        description: 'Centro de Estudiantes de la Facultad de Ingeniería y Ciencias Hídricas de la Universidad Nacional del Litoral (CEICH - FICH UNL)'
+    },
+    {
+        id: 9,
+        institution: 'STG',
+        academicTitle: 'Capacitación Introducción a la Plataforma Moodle',
+        lastSeen: '18 agu. 2019',
+        icon: <AcademicCapIcon/>,
+        description: 'Gobierno de la Provincia de Santa Fe - Secretaría de Tecnologías para la Gestión'
+    },
 ];
 
 export function LicenceList() {
