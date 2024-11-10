@@ -86,6 +86,30 @@ export const licences = [
     },
     {
         id: 7,
+        institution: 'UNLZ-IME-INAP',
+        academicTitle: 'Comunicación de las acciones estatales con perspectiva de género',
+        lastSeen: 'jun. 2023',
+        icon: <AcademicCapIcon/>,
+        description: 'Universidad Nacional de Lomas de Zamora - Plan Federal de Formación y Capacitación en Gestión Pública'
+    },
+    {
+        id: 8,
+        institution: 'UNLZ-IME-INAP',
+        academicTitle: 'Negociación y resolución de conflictos como habilidad directiva',
+        lastSeen: 'jun. 2023',
+        icon: <AcademicCapIcon/>,
+        description: 'Universidad Nacional de Lomas de Zamora - Plan Federal de Formación y Capacitación en Gestión Pública'
+    },
+    {
+        id: 9,
+        institution: 'UNTREF-IME-INAP',
+        academicTitle: 'Introducción a la Inteligencia Artificial y su Aplicación en la Generación de la Información para la Planificación y Toma de Desición de Políticas Públicas',
+        lastSeen: 'sep. 2022',
+        icon: <AcademicCapIcon/>,
+        description: 'Universidad Nacional de Tres de Febrero - Plan Federal de Formación y Capacitación en Gestión Pública'
+    },
+    {
+        id: 10,
         institution: 'Udemy',
         academicTitle: 'Beginner English: Practical Foundational English Training',
         lastSeen: '25 jun. 2021',
@@ -93,7 +117,7 @@ export const licences = [
         description: 'Udemy'
     },
     {
-        id: 8,
+        id: 11,
         institution: 'CEICH - FICH UNL',
         academicTitle: 'MISIONES SATELITALES aplicadas a la enseñanza de la Ciencia y la Tecnología',
         lastSeen: '8 may. 2020',
@@ -101,7 +125,15 @@ export const licences = [
         description: 'Centro de Estudiantes de la Facultad de Ingeniería y Ciencias Hídricas de la Universidad Nacional del Litoral (CEICH - FICH UNL)'
     },
     {
-        id: 9,
+        id: 12,
+        institution: 'CEICH - FICH UNL',
+        academicTitle: 'Ciberseguridad en tiempos de Covid-19',
+        lastSeen: '27 apr. 2020',
+        icon: <AcademicCapIcon/>,
+        description: 'Centro de Estudiantes de la Facultad de Ingeniería y Ciencias Hídricas de la Universidad Nacional del Litoral (CEICH - FICH UNL)'
+    },
+    {
+        id: 13,
         institution: 'STG',
         academicTitle: 'Capacitación Introducción a la Plataforma Moodle',
         lastSeen: '18 agu. 2019',
