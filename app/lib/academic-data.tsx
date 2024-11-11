@@ -70,6 +70,16 @@ export const licences = [
     },
     {
         id: 5,
+        institution: 'Donweb',
+        academicTitle: 'Desarrollo fullstack simplificado con NextJS 13.5: App Router y Side Components',
+        lastSeen: 'dic. 2023',
+        url: null,
+        icon: <AcademicCapIcon/>,
+        description: 'Talleres DonWeb'
+    },
+
+    {
+        id: 6,
         institution: 'INAP',
         academicTitle: 'Herramientas para la resolución de conflictos (Plan Federal) (IN-NV-51364)',
         lastSeen: 'sep. 2023',
@@ -77,7 +87,7 @@ export const licences = [
         description: 'Instituto Nacional de Administración Pública'
     },
     {
-        id: 6,
+        id: 7,
         institution: 'Donweb',
         academicTitle: 'Taller Desarrollo Creativo, Bainstorming y Design Thinking',
         lastSeen: '13 mar. 2023',
@@ -85,7 +95,7 @@ export const licences = [
         description: 'Talleres DonWeb'
     },
     {
-        id: 7,
+        id: 8,
         institution: 'UNLZ-IME-INAP',
         academicTitle: 'Comunicación de las acciones estatales con perspectiva de género',
         lastSeen: 'jun. 2023',
@@ -93,7 +103,7 @@ export const licences = [
         description: 'Universidad Nacional de Lomas de Zamora - Plan Federal de Formación y Capacitación en Gestión Pública'
     },
     {
-        id: 8,
+        id: 9,
         institution: 'UNLZ-IME-INAP',
         academicTitle: 'Negociación y resolución de conflictos como habilidad directiva',
         lastSeen: 'jun. 2023',
@@ -101,7 +111,7 @@ export const licences = [
         description: 'Universidad Nacional de Lomas de Zamora - Plan Federal de Formación y Capacitación en Gestión Pública'
     },
     {
-        id: 9,
+        id: 10,
         institution: 'UNTREF-IME-INAP',
         academicTitle: 'Introducción a la Inteligencia Artificial y su Aplicación en la Generación de la Información para la Planificación y Toma de Desición de Políticas Públicas',
         lastSeen: 'sep. 2022',
@@ -109,7 +119,15 @@ export const licences = [
         description: 'Universidad Nacional de Tres de Febrero - Plan Federal de Formación y Capacitación en Gestión Pública'
     },
     {
-        id: 10,
+        id: 11,
+        institution: 'MIGD',
+        academicTitle: 'Ley Micaela. Curso de Capacitación Obligatoria en Género para las Trabajadoras y los Trabajadores de la Administración Pública Provincial',
+        lastSeen: 'dic. 2021',
+        icon: <AcademicCapIcon/>,
+        description: 'Ministerio de Igualdad, Género y Diversidad de la Provincia de Santa Fe'
+    },
+    {
+        id: 12,
         institution: 'Udemy',
         academicTitle: 'Beginner English: Practical Foundational English Training',
         lastSeen: '25 jun. 2021',
@@ -117,7 +135,7 @@ export const licences = [
         description: 'Udemy'
     },
     {
-        id: 11,
+        id: 13,
         institution: 'CEICH - FICH UNL',
         academicTitle: 'MISIONES SATELITALES aplicadas a la enseñanza de la Ciencia y la Tecnología',
         lastSeen: '8 may. 2020',
@@ -125,7 +143,7 @@ export const licences = [
         description: 'Centro de Estudiantes de la Facultad de Ingeniería y Ciencias Hídricas de la Universidad Nacional del Litoral (CEICH - FICH UNL)'
     },
     {
-        id: 12,
+        id: 14,
         institution: 'CEICH - FICH UNL',
         academicTitle: 'Ciberseguridad en tiempos de Covid-19',
         lastSeen: '27 apr. 2020',
@@ -133,7 +151,7 @@ export const licences = [
         description: 'Centro de Estudiantes de la Facultad de Ingeniería y Ciencias Hídricas de la Universidad Nacional del Litoral (CEICH - FICH UNL)'
     },
     {
-        id: 13,
+        id: 15,
         institution: 'STG',
         academicTitle: 'Capacitación Introducción a la Plataforma Moodle',
         lastSeen: '18 agu. 2019',

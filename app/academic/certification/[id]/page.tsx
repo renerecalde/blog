@@ -1,5 +1,5 @@
 import {licences} from "../../../lib/academic-data";
-import {ArrowLeftIcon, PaperClipIcon} from "../../../components/icons";
+import {PaperClipIcon} from "../../../components/icons";
 import Link from "next/link";
 
 function obtainCertification(id: number) {
