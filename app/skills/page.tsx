@@ -1,5 +1,11 @@
 import ReactCountryFlag from "react-country-flag"
-import {DocumentTextIcon, NextJsIcon} from "../components/icons";
+import {DocumentTextIcon } from "../components/icons";
+import { RiNextjsLine, RiKakaoTalkLine  } from "react-icons/ri";
+import { MdOutlineSecurity,MdOutlineSatelliteAlt  } from "react-icons/md";
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { FaJava, FaWordpress, FaPeopleArrows } from "react-icons/fa";
+import { SiMicrosoftazure, SiMetabase, Si365Datascience,  SiMoodle, SiKakaotalk } from "react-icons/si";
+import { DiSymfony } from "react-icons/di";
 
 export const metadata = {
     title: 'Skills',
@@ -9,14 +15,28 @@ export const metadata = {
 function SkillGrid() {
     return (
         <>
-            <div className="grid grid-flow-row-dense grid-cols-6 grid-rows-6 ...">
+            <div
+                className="grid grid-flow-row-dense grid-cols-6 grid-rows-6 hover:grid-flow-row md:grid-flow-row gap-3">
                 <div><ReactCountryFlag countryCode="ar"/></div>
                 <div><ReactCountryFlag countryCode="us"/></div>
                 <div><ReactCountryFlag countryCode="py"/></div>
                 <div><ReactCountryFlag countryCode="fr"/></div>
                 <div><DocumentTextIcon/></div>
-                <div><NextJsIcon/></div>
-                <div>05</div>
+                <div><RiNextjsLine/></div>
+                <div><MdOutlineSecurity/></div>
+                <div><GiArtificialIntelligence/></div>
+                <div><FaPeopleArrows/></div>
+                <div><RiKakaoTalkLine/></div>
+                <div><SiKakaotalk/></div>
+                <div><MdOutlineSatelliteAlt/></div>
+                <div><SiMoodle/></div>
+                <div><FaWordpress/></div>
+                <div><FaJava/></div>
+                <div><Si365Datascience/></div>
+                <div><SiMetabase/></div>
+                <div><SiMicrosoftazure/></div>
+                <div><DiSymfony/></div>
+
             </div>
         </>
     )

@@ -47,6 +47,12 @@ importers:
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
+      react-icons:
+        specifier: ^5.3.0
+        version: 5.3.0(react@18.2.0)
+      react-icos:
+        specifier: ^2.2.2
+        version: 2.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
       sugar-high:
         specifier: ^0.6.0
         version: 0.6.0
@@ -692,6 +698,23 @@ packages:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
     peerDependencies:
       react: ^18.2.0
+
+  react-icon-base@2.0.4:
+    resolution: {integrity: sha512-MTorsTuthjDh8a93vEIzYNZcWw+TVOuczrxi8kG9hJ0Ljnw320s2UA1rUBGtdWxyG61G79TIZ0ShiSnWm5hYXw==}
+    peerDependencies:
+      react: '*'
+      react-dom: '*'
+
+  react-icons@5.3.0:
+    resolution: {integrity: sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMxmcA3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==}
+    peerDependencies:
+      react: '*'
+
+  react-icos@2.2.2:
+    resolution: {integrity: sha512-EnvGo6etv5XOdfF3BnGdB8dbZu8nD+o9027Wee/hk7g4gHmrJJM2NuXk2XMHP0J6M7tqrkHoFCel6fkqAzKo1A==}
+    peerDependencies:
+      react: ^0.14.0 || ^15.0.0
+      react-dom: ^0.14.0 || ^15.0.0
 
   react@18.2.0:
     resolution: {integrity: sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==}
@@ -1600,6 +1623,21 @@ snapshots:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+
+  react-icon-base@2.0.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+
+  react-icons@5.3.0(react@18.2.0):
+    dependencies:
+      react: 18.2.0
+
+  react-icos@2.2.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      react-icon-base: 2.0.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
 
   react@18.2.0:
     dependencies:
