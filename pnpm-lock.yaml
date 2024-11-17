@@ -41,6 +41,9 @@ importers:
       react:
         specifier: 18.2.0
         version: 18.2.0
+      react-country-flag:
+        specifier: ^3.1.0
+        version: 3.1.0(react@18.2.0)
       react-dom:
         specifier: 18.2.0
         version: 18.2.0(react@18.2.0)
@@ -678,6 +681,12 @@ packages:
 
   property-information@6.4.1:
     resolution: {integrity: sha512-OHYtXfu5aI2sS2LWFSN5rgJjrQ4pCy8i1jubJLe2QvMF8JJ++HXTUIVWFLfXJoaOfvYYjk2SN8J2wFUWIGXT4w==}
+
+  react-country-flag@3.1.0:
+    resolution: {integrity: sha512-JWQFw1efdv9sTC+TGQvTKXQg1NKbDU2mBiAiRWcKM9F1sK+/zjhP2yGmm8YDddWyZdXVkR8Md47rPMJmo4YO5g==}
+    engines: {node: '>=12'}
+    peerDependencies:
+      react: '>=16'
 
   react-dom@18.2.0:
     resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
@@ -1581,6 +1590,10 @@ snapshots:
       source-map-js: 1.0.2
 
   property-information@6.4.1: {}
+
+  react-country-flag@3.1.0(react@18.2.0):
+    dependencies:
+      react: 18.2.0
 
   react-dom@18.2.0(react@18.2.0):
     dependencies:

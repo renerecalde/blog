@@ -1,6 +1,5 @@
 import {licences} from "../../../lib/academic-data";
 import {PaperClipIcon} from "../../../components/icons";
-import Link from "next/link";
 
 function obtainCertification(id: number) {
     return licences[id - 1];
