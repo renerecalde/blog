@@ -1,5 +1,5 @@
 import ReactCountryFlag from "react-country-flag"
-import {DocumentTextIcon} from "../components/icons";
+import {DocumentTextIcon, SyliumIcon} from "../components/icons";
 import {RiNextjsLine, RiKakaoTalkLine} from "react-icons/ri";
 import {MdOutlineSecurity, MdOutlineSatelliteAlt} from "react-icons/md";
 import {GiArtificialIntelligence} from "react-icons/gi";
@@ -47,35 +47,51 @@ function SkillGrid() {
                     <div className="px-6 py-4">
                         <div className="font-bold text-xl mb-2">Soft Skills</div>
                         <p className="text-gray-700 text-base">
-                            English Basic professional competence. Also Spanish, French and Guaraní.
+                            Production of administrative texts, creativity techniques, negotiation, conflict resolution,
+                            etc.
                         </p>
                     </div>
                     <div className="px-6 pt-4 pb-2">
                         <span
                             className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                            <ReactCountryFlag countryCode="ar"/>
+                            <DocumentTextIcon/>
                         </span>
                         <span
                             className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                            <ReactCountryFlag countryCode="us"/>
+                <FaPeopleArrows/>
                         </span>
                         <span
                             className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                            <ReactCountryFlag countryCode="py"/>
+                <SiKakaotalk/>
                         </span>
-                        <span
-                            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                            <ReactCountryFlag countryCode="fr"/>
-                        </span>
+
                     </div>
                 </div>
-                <div><DocumentTextIcon/></div>
+                <div className="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div className="px-6 py-4">
+                        <div className="font-bold text-xl mb-2">Backend</div>
+                        <p className="text-gray-700 text-base"> </p>
+                    </div>
+                    <div className="px-6 pt-4 pb-2">
+                        <span
+                            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                            <SyliumIcon/>
+                        </span>
+                        <span
+                            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                <FaPeopleArrows/>
+                        </span>
+                        <span
+                            className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                <SiKakaotalk/>
+                        </span>
+
+                    </div>
+                </div>
                 <div><RiNextjsLine/></div>
                 <div><MdOutlineSecurity/></div>
                 <div><GiArtificialIntelligence/></div>
-                <div><FaPeopleArrows/></div>
                 <div><RiKakaoTalkLine/></div>
-                <div><SiKakaotalk/></div>
                 <div><MdOutlineSatelliteAlt/></div>
                 <div><SiMoodle/></div>
                 <div><FaWordpress/></div>
