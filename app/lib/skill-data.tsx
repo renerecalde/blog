@@ -1,4 +1,4 @@
-import {DiSymfony} from "react-icons/di";
+import {DiJqueryLogo, DiMysql, DiSymfony} from "react-icons/di";
 import {SiAzuredevops, SiMetabase, SiWoocommerce, SiMoodle, SiWebgl, SiMaterialdesign} from "react-icons/si";
 import { RiJavascriptLine, RiNextjsLine} from "react-icons/ri";
 import {AiOutlinePython} from "react-icons/ai";
@@ -12,12 +12,13 @@ import {
     FaReact,
     FaPhp,
     FaCss3,
-    FaBootstrap
+    FaBootstrap, FaLaravel
 } from "react-icons/fa";
 import { BiLogoGoLang } from "react-icons/bi";
 import {MdOutlineSecurity} from "react-icons/md";
 import {CiSatellite1, CiText} from "react-icons/ci";
-import {GiBrainstorm} from "react-icons/gi";
+import {GiBrainstorm, GiPear} from "react-icons/gi";
+import {TbBrandAlpineJs} from "react-icons/tb";
 
 const skills = [
     {
@@ -64,132 +65,162 @@ const skills = [
     },
     {
         id: 8,
+        description: 'Freelance',
+        name: 'Laravel',
+        icon: <FaLaravel size="2x"/>,
+    },
+    {
+        id: 9,
+        description: 'GSF, UNL, Freelance',
+        name: 'Pear',
+        icon: <GiPear size="2x"/>,
+    },
+    {
+        id: 10,
         description: 'GSF, UNL, Freelance',
         name: 'Git',
         icon: <FaGit size="2x"/>,
     },
     {
-        id: 9,
+        id: 11,
         description: 'GSF, UNL, Freelance',
         name: 'Docker',
         icon: <FaDocker size="2x"/>,
     },
     {
-        id: 10,
+        id: 12,
         description: 'UNL, Freelance',
         name: 'Azure DevOps',
         icon: <SiAzuredevops size="2x"/>,
     },
     {
-        id: 11,
+        id: 13,
         description: 'Courses',
         name: 'English, French, Spanish, Guaraní.',
         icon: <FaLanguage size="2x"/>,
     },
     {
-        id: 12,
+        id: 14,
         description: 'Capacitación Introducción a la Plataforma MoodleCapacitación Introducción a la Plataforma Moodle',
         name: 'Moodle',
         icon: <SiMoodle size="2x"/>,
     },
     {
-        id: 13,
+        id: 15,
         description: 'GSF, UNL, Freelance',
         name: 'Html5',
         icon: <FaHtml5 size="2x"/>,
     },
     {
-        id: 14,
+        id: 15,
         description: 'GSF, UNL, Freelance',
         name: 'Css3',
         icon: <FaCss3 size="2x"/>,
     },
     {
-        id: 15,
+        id: 16,
         description: 'GSF, UNL, Freelance',
         name: 'Boostrap',
         icon: <FaBootstrap size="2x"/>,
     },
     {
-        id: 16,
+        id: 17,
         description: 'GSF, UNL, Freelance',
         name: 'Material design',
         icon: <SiMaterialdesign size="2x"/>,
     },
     {
-        id: 17,
+        id: 18,
         description: 'Desarrollo fullstack simplificado con NextJS 13.5: App Router y Side Components',
         name: 'NextJs',
         icon: <RiNextjsLine size="2x"/>,
     },
     {
-        id: 18,
+        id: 19,
+        description: 'Freelance',
+        name: 'Alpinejs',
+        icon: <TbBrandAlpineJs size="2x"/>,
+    },
+    {
+        id: 20,
+        description: 'GSF',
+        name: 'Jquery, Jquery UI',
+        icon: <DiJqueryLogo size="2x"/>,
+    },
+    {
+        id: 21,
         description: 'Freelance',
         name: 'ReactJs',
         icon: <FaReact size="2x"/>,
     },
     {
-        id: 19,
+        id: 22,
+        description: 'GSF, UNL, Freelance',
+        name: 'Mysql, Postgresql, Firebase',
+        icon: <DiMysql size="2x"/>,
+    },
+    {
+        id: 23,
         description: 'Desarrollo de encuesta para docentes.',
         name: 'J2me',
         icon: <FaJava size="2x"/>,
     },
     {
-        id: 20,
+        id: 24,
         description: 'Curses',
         name: 'WebGl',
         icon: <SiWebgl size="2x"/>,
     },
    {
-        id: 21,
+        id: 25,
         description: 'Desarrollo de dashboard para toma de decisiones en tiempo real para proyectos del Ministero de Desarrollo Productivo de la Provincia de Santa Fe',
         name: 'Data Science',
         icon: <SiMetabase size="2x"/>,
     },
     {
-        id: 22,
+        id: 26,
         description: 'Cursos Metabase y Desarrollo de dashboard para toma de decisiones en tiempo real para proyectos del Ministero de Desarrollo Productivo de la Provincia de Santa Fe',
         name: 'Metabase',
         icon: <SiMetabase size="2x"/>,
     },
     {
-        id: 23,
+        id: 27,
         description: 'Cursos Pentaho y Desarrollo de dashboard para toma de decisiones en tiempo real para proyectos del Ministero de Desarrollo Productivo de la Provincia de Santa Fe',
         name: 'Pentaho',
         icon: <SiMetabase size="2x"/>,
     },
     {
-        id: 24,
+        id: 28,
         description: 'Courses UNTREF',
         name: 'IA',
         icon: <AiOutlinePython size="2x"/>,
     },
     {
-        id: 25,
+        id: 29,
         description: 'Courses INVAP, UNL',
         name: 'Ciberseguridad',
         icon: <MdOutlineSecurity size="2x"/>,
     },
     {
-        id: 26,
+        id: 30,
         description: 'Courses INVAP',
         name: 'Protección de textos',
         icon: <CiText size="2x"/>,
     },
     {
-        id: 27,
+        id: 31,
         description: 'Courses',
         name: 'Brainstorming',
         icon: <GiBrainstorm size="2x"/>,
     },
     {
-        id: 28,
+        id: 32,
         description: 'Courses INVAP, GSF, UNLZ',
         name: 'Comunicación, Negociación y resolución de conflictos',
         icon: <FaPeopleArrows size="2x"/>,
     },
     {
-        id: 29,
+        id: 33,
         description: 'Courses UNL',
         name: 'Sistemas satelitales',
         icon: <CiSatellite1 size="2x"/>,
