@@ -1,7 +1,3 @@
-import { DiSymfony} from "react-icons/di";
-import {
-   FaPhp,
-} from "react-icons/fa";
 import ReactCountryFlag from "react-country-flag";
 
 const languages = [
