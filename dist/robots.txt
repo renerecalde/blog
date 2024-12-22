@@ -1,0 +1,3 @@
+User-Agent: *
+
+Sitemap: https://renerecalde.github.io//sitemap.xml
