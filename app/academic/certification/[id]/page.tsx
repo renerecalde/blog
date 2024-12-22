@@ -1,13 +1,19 @@
 import {licences} from "../../../lib/academic-data";
 import {PaperClipIcon} from "../../../components/icons";
 
+export async function generateStaticParams() {
+    // Replace this with logic to fetch or define your dynamic `id` values.
+    const ids = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17']; // Example IDs, replace with your data source.
+
+    return ids.map((id) => ({ id }));
+}
+
 function obtainCertification(id: number) {
     return licences[id - 1];
 }
 
 export default function Page({params}) {
     const certification = obtainCertification(params.id);
-    console.log({certification});
     return <>
         <div>
             <div className="px-4 sm:px-0">
